@@ -1,13 +1,13 @@
 "use client";
 
-import { Linkedin, Twitter, Github, Youtube } from "lucide-react";
+import { Globe, MessageCircle, ExternalLink, Play } from "lucide-react";
 import { useTranslation } from "@/lib/i18n";
 
 const socialLinks = [
-  { Icon: Linkedin, href: "#", label: "LinkedIn" },
-  { Icon: Twitter, href: "#", label: "Twitter" },
-  { Icon: Youtube, href: "#", label: "YouTube" },
-  { Icon: Github, href: "#", label: "GitHub" },
+  { Icon: Globe, href: "#", label: "Website" },
+  { Icon: MessageCircle, href: "#", label: "Chat" },
+  { Icon: Play, href: "#", label: "Videos" },
+  { Icon: ExternalLink, href: "#", label: "More" },
 ];
 
 export default function Footer() {

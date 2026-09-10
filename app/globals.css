@@ -3,10 +3,8 @@
 /* ============================================================
    FEXCORE — Design System (Tailwind CSS v4)
    Sistema de diseño corporativo para SaaS B2B
+   Fonts loaded via next/font in layout.tsx for optimal performance
    ============================================================ */
-
-/* --- Google Fonts --- */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@400;500;700;900&display=swap");
 
 /* --- Theme Tokens --- */
 @theme inline {
