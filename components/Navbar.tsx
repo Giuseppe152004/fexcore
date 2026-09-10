@@ -16,7 +16,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 glass border-b border-border-subtle">
+    <header className="sticky top-0 z-50 w-full bg-slate-900/90 backdrop-blur-md border-b border-border-subtle">
       <nav className="section-container flex items-center justify-between h-16 md:h-[72px]">
         {/* ── Logo ── */}
         <a href="#" className="flex items-center gap-0.5 shrink-0">
@@ -73,13 +73,6 @@ export default function Navbar() {
             </span>
           </button>
 
-          <a
-            href="#"
-            className="font-heading text-sm font-medium text-text-secondary hover:text-white transition-colors px-4 py-2"
-          >
-            {t("nav", "login")}
-          </a>
-
           <a href="#contacto" className="btn-primary text-sm !min-h-[40px] !py-2 !px-5">
             {t("nav", "cta")}
           </a>
@@ -131,13 +124,6 @@ export default function Navbar() {
                   {locale === "es" ? "English" : "Español"}
                 </button>
               </div>
-
-              <a
-                href="#"
-                className="font-heading text-sm text-text-secondary hover:text-white transition-colors"
-              >
-                {t("nav", "login")}
-              </a>
 
               <a
                 href="#contacto"

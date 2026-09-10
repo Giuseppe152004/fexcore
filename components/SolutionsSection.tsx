@@ -8,6 +8,7 @@ import {
   Webhook,
   ArrowRight,
 } from "lucide-react";
+import Link from "next/link";
 import { useTranslation } from "@/lib/i18n";
 
 const solutions = [
@@ -17,6 +18,7 @@ const solutions = [
     descKey: "card1_desc",
     features: ["Correctivo", "Preventivo", "Predictivo"],
     featuresEn: ["Corrective", "Preventive", "Predictive"],
+    href: "/detalles/ordenes",
   },
   {
     icon: Settings,
@@ -24,6 +26,7 @@ const solutions = [
     descKey: "card2_desc",
     features: ["Historial", "Costos", "Vida útil"],
     featuresEn: ["History", "Costs", "Lifespan"],
+    href: "/detalles/activos",
   },
   {
     icon: Package,
@@ -31,6 +34,7 @@ const solutions = [
     descKey: "card3_desc",
     features: ["Stock mínimo", "Compras", "Trazabilidad"],
     featuresEn: ["Min stock", "Purchasing", "Traceability"],
+    href: "/detalles/inventario",
   },
   {
     icon: Webhook,
@@ -38,6 +42,7 @@ const solutions = [
     descKey: "card4_desc",
     features: ["WhatsApp", "Email", "Slack"],
     featuresEn: ["WhatsApp", "Email", "Slack"],
+    href: "/detalles/alertas",
   },
 ];
 
@@ -90,12 +95,16 @@ export default function SolutionsSection() {
               key={sol.titleKey}
               variants={cardVariants}
               whileHover={{ y: -6, scale: 1.01 }}
-              className="group relative bg-surface-dark rounded-2xl p-8 border-t-[3px] border-t-core-blue border border-border-subtle overflow-hidden cursor-default"
+              className="h-full"
             >
+              <Link
+                href={sol.href}
+                className="group block relative h-full bg-surface-dark rounded-2xl p-8 border-t-[3px] border-t-core-blue border border-border-subtle overflow-hidden cursor-pointer"
+              >
               {/* Background glow on hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-core-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-              <div className="relative z-10">
+              <div className="relative z-10 h-full flex flex-col">
                 {/* Icon */}
                 <div className="w-12 h-12 rounded-xl bg-core-blue/10 flex items-center justify-center mb-5 group-hover:bg-core-blue/20 transition-colors duration-300">
                   <sol.icon className="w-6 h-6 text-core-blue" />
@@ -126,13 +135,14 @@ export default function SolutionsSection() {
                 </div>
 
                 {/* Learn more link */}
-                <div className="flex items-center gap-1.5 text-text-secondary group-hover:text-core-blue transition-colors duration-300">
+                <div className="mt-auto pt-5 flex items-center gap-1.5 text-text-secondary group-hover:text-core-blue transition-colors duration-300">
                   <span className="text-sm font-heading font-bold">
                     {locale === "es" ? "Más información" : "Learn more"}
                   </span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </div>
               </div>
+              </Link>
             </motion.div>
           ))}
         </motion.div>

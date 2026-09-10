@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { BarChart3, ClipboardList, Wrench } from "lucide-react";
+import Link from "next/link";
 import { useTranslation } from "@/lib/i18n";
 
 const cards = [
@@ -12,6 +13,7 @@ const cards = [
     accent: "from-core-blue to-blue-600",
     iconBg: "bg-core-blue/10",
     iconColor: "text-core-blue",
+    href: "/detalles/gerencia",
   },
   {
     icon: ClipboardList,
@@ -20,6 +22,7 @@ const cards = [
     accent: "from-purple-500 to-indigo-600",
     iconBg: "bg-purple-500/10",
     iconColor: "text-purple-400",
+    href: "/detalles/supervision",
   },
   {
     icon: Wrench,
@@ -28,6 +31,7 @@ const cards = [
     accent: "from-op-green to-emerald-600",
     iconBg: "bg-op-green/10",
     iconColor: "text-op-green",
+    href: "/detalles/tecnicos",
   },
 ];
 
@@ -82,8 +86,12 @@ export default function AudienceSection() {
               key={card.titleKey}
               variants={cardVariants}
               whileHover={{ y: -8 }}
-              className="group relative bg-white rounded-2xl p-8 border border-border-light shadow-sm hover:shadow-xl hover:border-core-blue/30 transition-all duration-300 cursor-default"
+              className="h-full"
             >
+              <Link
+                href={card.href}
+                className="group relative bg-white rounded-2xl p-8 border border-border-light shadow-sm hover:shadow-xl hover:border-core-blue/30 transition-all duration-300 block cursor-pointer h-full"
+              >
               {/* Top gradient accent */}
               <div
                 className={`absolute top-0 inset-x-0 h-1 rounded-t-2xl bg-gradient-to-r ${card.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-300`}
@@ -125,6 +133,7 @@ export default function AudienceSection() {
                   />
                 </svg>
               </div>
+              </Link>
             </motion.div>
           ))}
         </motion.div>

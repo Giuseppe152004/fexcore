@@ -6,6 +6,7 @@ import SolutionsSection from "@/components/SolutionsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import BottomCTA from "@/components/BottomCTA";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <SolutionsSection />
         <TestimonialsSection />
         <ContactForm />
+        <BottomCTA />
       </main>
       <Footer />
     </>
