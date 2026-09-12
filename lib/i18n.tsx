@@ -68,7 +68,7 @@ const translations: Translations = {
     audience: {
       headline: "Diseñado para cada nivel de tu operación",
       subtitle:
-        "FexCore se adapta a las necesidades específicas de cada rol en tu planta industrial.",
+        "FixCore se adapta a las necesidades específicas de cada rol en tu planta industrial.",
       card1_title: "Gerentes de Planta",
       card1_desc:
         "Maximiza el ROI y audita tiempos muertos en tiempo real. Dashboards ejecutivos con KPIs accionables.",
@@ -101,9 +101,9 @@ const translations: Translations = {
     testimonials: {
       headline: "Impacto Comprobado",
       subtitle:
-        "Empresas líderes confían en FexCore para transformar su mantenimiento industrial.",
+        "Empresas líderes confían en FixCore para transformar su mantenimiento industrial.",
       quote1:
-        "FexCore redujo nuestro downtime en un 40% en solo 3 meses. La adopción por parte de los técnicos fue inmediata.",
+        "FixCore redujo nuestro downtime en un 40% en solo 3 meses. La adopción por parte de los técnicos fue inmediata.",
       author1: "Carlos Mendoza",
       role1: "Director de Operaciones — Aceros del Norte",
       quote2:
@@ -111,7 +111,7 @@ const translations: Translations = {
       author2: "María Solís",
       role2: "Gerente de Planta — LogiFreeze Mx",
       quote3:
-        "Implementar FexCore fue sorprendentemente rápido. En 2 semanas ya teníamos toda la planta digitalizada.",
+        "Implementar FixCore fue sorprendentemente rápido. En 2 semanas ya teníamos toda la planta digitalizada.",
       author3: "Andrés Vega",
       role3: "VP de Mantenimiento — Cementos del Pacífico",
     },
@@ -152,7 +152,7 @@ const translations: Translations = {
       link_privacy: "Privacidad",
       link_terms: "Términos de Servicio",
       link_cookies: "Cookies",
-      copyright: "© 2026 FexCore. Todos los derechos reservados.",
+      copyright: "© 2026 FixCore. Todos los derechos reservados.",
     },
   },
 
@@ -183,7 +183,7 @@ const translations: Translations = {
     audience: {
       headline: "Designed for every level of your operation",
       subtitle:
-        "FexCore adapts to the specific needs of every role in your industrial plant.",
+        "FixCore adapts to the specific needs of every role in your industrial plant.",
       card1_title: "Plant Managers",
       card1_desc:
         "Maximize ROI and audit downtime in real time. Executive dashboards with actionable KPIs.",
@@ -216,9 +216,9 @@ const translations: Translations = {
     testimonials: {
       headline: "Proven Impact",
       subtitle:
-        "Leading companies trust FexCore to transform their industrial maintenance.",
+        "Leading companies trust FixCore to transform their industrial maintenance.",
       quote1:
-        "FexCore reduced our downtime by 40% in just 3 months. Technician adoption was immediate.",
+        "FixCore reduced our downtime by 40% in just 3 months. Technician adoption was immediate.",
       author1: "Carlos Mendoza",
       role1: "Director of Operations — Aceros del Norte",
       quote2:
@@ -226,7 +226,7 @@ const translations: Translations = {
       author2: "María Solís",
       role2: "Plant Manager — LogiFreeze Mx",
       quote3:
-        "Implementing FexCore was surprisingly fast. In 2 weeks we had the entire plant digitized.",
+        "Implementing FixCore was surprisingly fast. In 2 weeks we had the entire plant digitized.",
       author3: "Andrés Vega",
       role3: "VP of Maintenance — Cementos del Pacífico",
     },
@@ -267,7 +267,7 @@ const translations: Translations = {
       link_privacy: "Privacy",
       link_terms: "Terms of Service",
       link_cookies: "Cookies",
-      copyright: "© 2026 FexCore. All rights reserved.",
+      copyright: "© 2026 FixCore. All rights reserved.",
     },
   },
 };

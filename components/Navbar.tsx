@@ -21,7 +21,7 @@ export default function Navbar() {
         {/* ── Logo ── */}
         <a href="#" className="flex items-center gap-0.5 shrink-0">
           <span className="font-heading text-xl md:text-2xl font-bold text-white tracking-tight">
-            Fex
+            Fix
           </span>
           <span className="font-heading text-xl md:text-2xl font-bold text-gradient tracking-tight">
             Core

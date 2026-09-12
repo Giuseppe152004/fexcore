@@ -58,7 +58,7 @@ function DashboardMockup() {
             <div className="w-3 h-3 rounded-full bg-op-green" />
           </div>
           <span className="text-xs text-text-muted font-body">
-            FexCore Dashboard
+            FixCore Dashboard
           </span>
         </div>
 
@@ -268,7 +268,7 @@ export default function HeroSection() {
                   +200 plantas
                 </p>
                 <p className="text-xs text-text-muted font-body">
-                  confían en FexCore
+                  confían en FixCore
                 </p>
               </div>
             </motion.div>

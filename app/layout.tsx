@@ -26,7 +26,7 @@ const openSans = Open_Sans({
 // ---------------------------------------------------------------------------
 
 export const metadata: Metadata = {
-  title: "FexCore — Plataforma de Mantenimiento Industrial Inteligente",
+  title: "FixCore — Plataforma de Mantenimiento Industrial Inteligente",
   description:
     "Erradica el caos operativo y reduce tiempos muertos con la plataforma líder en gestión de activos, órdenes de trabajo y mantenimiento industrial.",
   keywords: [
@@ -36,20 +36,20 @@ export const metadata: Metadata = {
     "órdenes de trabajo",
     "SaaS industrial",
     "mantenimiento predictivo",
-    "FexCore",
+    "FixCore",
   ],
-  authors: [{ name: "FexCore" }],
+  authors: [{ name: "FixCore" }],
   openGraph: {
-    title: "FexCore — Plataforma de Mantenimiento Industrial Inteligente",
+    title: "FixCore — Plataforma de Mantenimiento Industrial Inteligente",
     description:
       "Erradica el caos operativo y reduce tiempos muertos con la plataforma líder en gestión de activos y órdenes de trabajo.",
     type: "website",
     locale: "es_MX",
-    siteName: "FexCore",
+    siteName: "FixCore",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FexCore — Mantenimiento Industrial Inteligente",
+    title: "FixCore — Mantenimiento Industrial Inteligente",
     description:
       "Gestión de activos, órdenes de trabajo y mantenimiento predictivo en una sola plataforma.",
   },
